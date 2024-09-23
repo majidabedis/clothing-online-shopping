@@ -60,7 +60,8 @@ Contributing
 Feel free to submit issues or pull requests for new features or bug fixes.
 
 
-License
+## License
 
-MIT License
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
 
