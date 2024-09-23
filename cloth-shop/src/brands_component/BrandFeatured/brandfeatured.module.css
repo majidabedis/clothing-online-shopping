@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.div_p_feature {
+    display: flex;
+    justify-content: start;
+}
+
+.p_feature {
+    width: 176px;
+    height: 47px;
+    margin-left:35px;
+    margin-top:40px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.div_img_feature {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 70px;
+}
+
+.img_feature {
+    width: 450px;
+    height: 592.5px;
+    box-shadow: 3px 4px 6px 0 rgba(0, 0, 0, 0.25);
+}

@@ -1,0 +1,101 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.p_women {
+    width: 335px;
+    height: 95px;
+    margin-top: 50px !important;
+    margin: auto;
+    font-size: 35px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.p_what {
+    width: fit-content;
+    height: 19px;
+    margin: auto;
+    margin-bottom: 20px !important;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.banertop {
+    /* width:100%; */
+    height:650px;
+    padding: 223px 440.7px 125px 459px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    background:url(../../assets/women/bannertop/group-28-data.jpg);
+    background-size:cover;
+    /* background-repeat:space; */
+    background-position: center;
+    margin: auto;
+    position: relative;
+    z-index: -10;
+    
+}
+
+.div_the_denim {
+    position: absolute;
+    left:35.5%;
+    width: 437.3px;
+    height: 210px;
+    flex-grow: 0;
+    padding: 7px 84.2px 41px 83.3px;
+    background-color: rgba(255, 255, 255, 0.71);
+}
+
+.p_the_denim {
+    width: 261.7px;
+    height: 75px;
+    flex-grow: 0;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.p_what_to {
+    width: 269.8px;
+    height: 59px;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.a_shop_denim {
+    width: 79.9px;
+    height: 19px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}

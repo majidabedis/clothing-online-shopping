@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.head {
+   
+        width: 1440px;
+        height: 255px;
+        flex-grow: 0;
+        padding: 65px 106px 134px 48px;
+        border: solid 1px #000;
+        background-color: #fff;
+   
+
+}
+
+.divHead {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+
+    flex-grow: 0;
+    font-family: IstokWeb;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.07;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+
+.divSearch {
+    display: flex;
+    width: fit-content;
+}
+
+.searchinp {
+    display: inline;
+    width: 243px;
+    height: 40px;
+    flex-grow: 0;
+    margin-top: 21px;
+    border: solid 1px #000;
+    background-color: #fff;
+    border-radius: 25px 0px 0px 25px ;
+
+}
+
+.searchBtn {
+    display: inline;
+    width: 70px;
+    height: 42px;
+    flex-grow: 0;
+    margin-top: 20px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 0px 25px 25px 0px ;
+
+}
+.div_Menu_icon{
+    display: flex;
+    width: 20%;
+    justify-content: space-evenly;
+}
+.menuIcon{
+    width: 28px;
+    height: 28px;
+    margin-top: 20px;
+}

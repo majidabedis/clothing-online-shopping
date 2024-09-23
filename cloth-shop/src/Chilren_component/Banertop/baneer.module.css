@@ -1,0 +1,53 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.div_baneer_top {
+    background: url(../../assets/children/baneertop/bannertop.jpg);
+    background-size: cover;
+    width: 90%;
+    height: 587.2px;
+    margin: auto;
+    margin-top: 50px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.5);
+    position: relative;
+    z-index: -60;
+}
+
+.p_trending {
+    width: 388px;
+    height: 60px;
+    margin: 0 0 58px;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 50px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    position: absolute;
+    top: 30%;
+    left: 100px;
+}
+
+.a_shop {
+    width: 114px;
+    height: 30px;
+    margin: 58px 137px 0;
+    font-size: 25px;
+    font-weight: 100;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    text-decoration: underline;
+    position: absolute;
+    top: 40%;
+    left: 100px;
+}

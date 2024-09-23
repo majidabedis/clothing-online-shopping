@@ -1,0 +1,115 @@
+
+@keyframes shake {
+    0% {
+      margin-left: 0rem;
+    }
+    25% {
+      margin-left: 0.5rem;
+    }
+    75% {
+      margin-left: -0.5rem;
+    }
+    100% {
+      margin-left: 0rem;
+    }
+  }
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif !important;
+}
+
+.divMain {
+    margin-top: 30px;
+    font-family:sans-serif !important;
+}
+
+.pSing {
+    text-align: center;
+    font-size: 26px;
+    color: rgb(0, 0, 0);
+    font-family:sans-serif !important;
+}
+
+
+.divForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    border-radius: 16px;
+    font-family:sans-serif !important;
+
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    padding: 20px;
+    background-color:#fafafaaf ;
+    border-radius: 16px;
+    border: 3px  solid #000000ca ;
+    font-family:sans-serif !important;
+   
+}
+
+.Inp {
+
+    margin-top: 15px;
+    background-color:whitesmoke ;
+    width: 350px;
+    height: 40px;
+    /* border: none !important ; */
+    border-radius: 5px;
+    text-indent: 15px;
+    color: rgb(16, 16, 16);
+    /* font-family:sans-serif !important; */
+}
+.Inp::placeholder{
+    color:rgb(0, 0, 0);
+    font-size: 14px;
+}
+.check{
+    display: inline;
+    margin-top: 15px;
+    margin-left: 200px;
+    background-color: rgb(255, 255, 255);
+    font-family:sans-serif !important;
+}
+
+.Inp:hover{
+    /* border:2px solid rgb(246, 255, 0); */
+    scale: 1.03 ;
+    box-shadow: rgba(198, 72, 9, 0.432) 0px 8px 24px, rgba(219, 89, 8, 0.61) 0px 16px 56px,rgba(185, 89, 10, 0.477);
+}
+label{
+    color:rgb(6, 6, 6);
+    margin-left: 10px;
+    font-family:sans-serif !important;
+}
+
+.Btn {
+    margin-top: 20px;
+    background-color: #ffffff49 !important;
+    color: rgb(11, 11, 11);
+    font-family: Inter;
+    border: 2px  solid #020202 ;
+    font-family:sans-serif !important;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.Btn:hover {
+    color: #004AFE;
+    scale: 1.05;
+    border:2px solid white;
+}
+.inputshake{
+    animation: shake 0.2s ease-in-out 0s 2;
+    box-shadow: 0 0 0.6rem #ff0000;
+    
+}

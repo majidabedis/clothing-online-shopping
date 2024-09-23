@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    background: #faf1e8;
+}
+
+.div_p_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.p_way_wear {
+   margin-top: 50px !important;
+    margin: auto;
+    font-family: Inter;
+    font-size: 35px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+}
+
+.p_multiway {
+  margin-top: 40px !important;
+    margin: auto;
+    font-family: Inter;
+    font-size: 55px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+}
+
+.div_way_wear {
+    display: flex;
+    justify-content: center;
+}
+
+.div_img_ways1 {
+    background: url(../../assets/collectionpic/waywear/baner1.jpg);
+    background-size: cover;
+    width: 700px;
+    height: 771.5px;
+    margin: 77px 0 100.5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.div_img_ways2 {
+    background: url(../../assets/collectionpic/waywear/baner2.jpg);
+    background-size: cover;
+    width: 700px;
+    height: 771.5px;
+    margin: 77px 0 100.5px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.p_trend {
+    width: 191px;
+    height: 43px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    position: absolute;
+    top: 210px;
+    left: 40%;
+
+
+
+}
+
+.p_footbed {
+    width: 248px;
+    height: 67px;
+    font-family: Inter;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    position: absolute;
+    top: 260px;
+    left: 40%;
+
+
+}
+
+.p_breath {
+    width: 600px;
+    height: 244px;
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 50px;
+    letter-spacing: normal;
+    text-align: center;
+    color: #000;
+    position: absolute;
+    top: 340px;
+    left: 10%;
+
+
+
+}
+
+.shop {
+    font-family: Inter;
+    border: 1px solid black;
+    border-radius: 25px;
+    background-color: azure;
+    font-size: 25px;
+    padding: 10px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    position: absolute;
+    top: 560px;
+    left: 40%;
+
+
+}

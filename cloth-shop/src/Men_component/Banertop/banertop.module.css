@@ -1,0 +1,79 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.div_bannertop {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.div_banner1{
+    width: 700px;
+    height: 525px;
+    flex-grow: 0;
+    background: url(../../assets/men/baneerup/slide1.jpg);
+    background-size: cover;
+    box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.25);
+}
+.div_banner2{
+    width: 700px;
+    height: 525px;
+    flex-grow: 0;
+    background: url(../../assets/men/baneerup/slide2.jpg);
+    background-size: cover;
+    box-shadow: 5px 6px 6px 0px rgba(0, 0, 0, 0.25);
+}
+.p_trend{
+    font-size: 30px;
+    font-weight: bold; 
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+.p_march{
+    font-size: 25px;
+    font-weight: bold;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.p_grear{
+    font-size: 18px;
+    font-weight:100;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    margin-left:50px;
+    margin-right:50px;
+    margin-top: 30px;
+    line-height:40px;
+}
+.btn_shop{
+    width: 165px;
+    height: 49px;
+    flex-grow: 0;
+    padding: 13px 10px 12px;
+    border-radius: 25px;
+    margin-top: 2 0px;
+    background-color: #fff;
+}

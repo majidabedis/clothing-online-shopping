@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.div_banner_bottom {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.div_banner1 {
+    width: 700px;
+    height: 812.5px;
+    flex-grow: 0;
+    margin-left:30px;
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+    background: url(../../assets/women/baneerbotoom/trending-whitenew-data.jpg);
+    background-size: cover;
+}
+
+.div_banner2 {
+    width: 700px;
+    height: 812.5px;
+    flex-grow: 0;
+    margin-right: 30px;
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+    background: url(../../assets/women/baneerbotoom/new-from-selfnew-data.jpg);
+    background-size: cover;
+
+
+}
