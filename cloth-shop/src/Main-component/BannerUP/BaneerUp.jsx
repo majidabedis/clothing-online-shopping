@@ -1,20 +1,12 @@
 import React from 'react'
 import styled from 'styled-components'
 import url from '../../assets/mainpage/main_img.webp'
-
-//*****************************styled component************
-const Div= styled.div`
-// margin-top: 50px;
-background:url( ${url});
-background-size:cover;
-width: 100%;
-height: 700px;
-`
+import url2 from '../../../src/assets/mainpage/main_img.webp'
 
 function BaneerUp() {
   return (
   <>
- <Div className='bg-'></Div>
+ <div className="bg-[url('../../../src/assets/mainpage/main_img.webp')] w-full md:w-full h-[200px] md:h-[700px] bg-cover"></div>
   </>
   )
 }
