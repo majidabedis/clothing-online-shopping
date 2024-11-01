@@ -1,5 +1,4 @@
 import { XMarkIcon } from '@heroicons/react/20/solid'
-import styles from './brandslide.module.css'
 import banner from '../../assets/brands pic/Brandslider/banner.jpg'
 import img1 from '../../assets/brands pic/Brandslider/img1.jpg'
 import img2 from '../../assets/brands pic/Brandslider/img2.jpg'
@@ -53,19 +52,19 @@ function BrandSlid() {
         </div>
       </div>
       
-        <div className={styles.div_banner}>
-          <div className={styles.div_img_banner}>
-            <img className={styles.img_banner} src={banner} alt="banner" />
+        <div className="flex w-11/12 h-[555px] mx-auto mt-12 p-6 bg-[#9eacb9] shadow-md shadow-gray-600">
+          <div className='w-6/12 mx-auto'>
+            <img className='w-[700px] h-[500px] grow-0 rounded-md' src={banner} alt="banner" />
           </div>
-          <div className={styles.div_img_p}>
-            <div className={styles.div_p_silde}>
-              <p className={styles.p_in_foxus}>IN FOCUS:</p>
-              <p className={styles.p_hogu_blue}>HUGO Blue Collection</p>
-              <p className={styles.p_shop_edit}>Shop The Edit</p>
+          <div className='w-61/12 mx-auto'>
+            <div >
+              <p className='w-[130px] h-[28px] grow-0 ml-[20px] text-2xl text-left text-black'>IN FOCUS:</p>
+              <p className="w-[307px] h-[27px] grow-0 mt-2 ml-5 text-2xl text-left text-black">HUGO Blue Collection</p>
+              <p className='w-[150px] h-24px] grow-0 mt-7 ml-5 text-xl font-bold text-left text-black'>Shop The Edit</p>
             </div>
-            <div className={styles.div_img_small}>
-              <img className={styles.img_small} src={img1} alt="img1" />
-              <img className={styles.img_small} src={img2} alt="img2" />
+            <div className='flex justify-around'>
+              <img className="w-[300px] h-[360px] grow-0 mt-3 ml-6" src={img1} alt="img1" />
+              <img className="w-[300px] h-[360px] grow-0 mt-3 ml-6" src={img2} alt="img2" />
             </div>
           </div>
         </div>
